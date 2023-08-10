@@ -11748,8 +11748,10 @@ textarea.form-control {
   opacity: 1;
   visibility: visible;
 }
-
-@media only screen and (min-width: 200px) {
+/* #map2{
+  display: none;
+} */
+@media only screen and (min-width: 250px) {
     #map2{
       display: block;
     }
@@ -11757,21 +11759,19 @@ textarea.form-control {
       display: none;
     }
   }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     #map2,#map1{
       display: none;
     }
   }
-@media only screen and (min-width: 801px) {
+/* @media only screen and (min-width: 801px) {
     #map2,#map1{
       display: none;
     }
-  }
+  } */
 @media only screen and (min-width: 1200px) {
     #map1{
       display: inline-block;
     }
   }
-  /* #map2{
-    display: none;
-  } */
+  
