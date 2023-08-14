@@ -11426,7 +11426,12 @@ textarea.form-control {
   background-size: cover;
   overflow: hidden;
 }
-
+@media (max-width: 400px) {
+  .header{
+    background: url(../imgs/mobile-header.jpg) no-repeat center center fixed;
+    margin-bottom: -100px;
+  }
+}
 
 .header .overlay {
   position: absolute;
