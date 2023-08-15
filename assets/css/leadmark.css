@@ -11429,7 +11429,6 @@ textarea.form-control {
 @media (max-width: 400px) {
   .header{
     background: url(../imgs/mobile-header.jpg) no-repeat center center fixed;
-    margin-bottom: -100px;
   }
 }
 
