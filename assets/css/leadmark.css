@@ -11822,9 +11822,9 @@ textarea.form-control {
   background-size: cover;
   overflow: hidden;
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .header {
-    background-image: url(../imgs/mobile-header.jpg) no-repeat center fixed;
+    background: url(../imgs/mobile-header.jpg) no-repeat center center fixed;
   }
 }
 
